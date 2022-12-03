@@ -3,14 +3,14 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_MainWindow.h"
 
-class MainWindow : public QMainWindow
+class MainWindow:public QMainWindow
 {
-	Q_OBJECT
+    Q_OBJECT
 
 public:
-	MainWindow(QWidget *parent = nullptr);
-	~MainWindow();
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
 
 private:
-	Ui::MainWindowClass ui;
+    Ui::MainWindowClass ui;
 };

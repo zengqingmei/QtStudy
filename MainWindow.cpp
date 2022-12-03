@@ -1,8 +1,8 @@
 #include "MainWindow.h"
 
-MainWindow::MainWindow(QWidget *parent): QMainWindow(parent)
+MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
 {
-    ui.setupUi(this);
+	ui.setupUi(this);
 	this->resize(640, 480);
 }
 

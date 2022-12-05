@@ -1,12 +1,10 @@
-#include "MainWindow.h"
-#include <QtWidgets/QApplication>
-#include <QtWidgets/QLabel>
+#include <QApplication>
+#include "FindDialog.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    QLabel *label = new QLabel("<h1><font color='green'>Hello World!!!</font><h1>");
-    label->resize(300, 50);
-    label->show();
+	FindDialog *dialog = new FindDialog();
+	dialog->show();
     return app.exec();
 }

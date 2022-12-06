@@ -1,7 +1,7 @@
 #pragma once
-
 #include <QMainWindow>
-#include "ui_MainWindow.h"
+
+class QAction;
 
 class MainWindow:public QMainWindow
 {
@@ -12,5 +12,5 @@ public:
     ~MainWindow();
 
 private:
-    Ui::MainWindowClass ui;
+	QAction *openAction;
 };

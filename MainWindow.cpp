@@ -6,7 +6,7 @@
 #include <QLabel>
 #include <QStatusBar>
 #include <QFileDialog>
-#include <QColorDIalog>
+#include <QColorDialog>
 
 MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
 {

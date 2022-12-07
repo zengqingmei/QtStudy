@@ -103,9 +103,6 @@
   <ItemGroup>
     <ResourceCompile Include="QtStudy.rc" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="QtStudy.ico" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />

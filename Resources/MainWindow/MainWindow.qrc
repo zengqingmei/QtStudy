@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/MainWindow">
         <file>Open.ico</file>
+        <file>Window.ico</file>
     </qresource>
 </RCC>

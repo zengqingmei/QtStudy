@@ -85,17 +85,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtRcc Include="MainWindow.qrc" />
-    <QtUic Include="MainWindow.ui" />
     <QtMoc Include="MainWindow.h" />
     <ClCompile Include="FindDialog.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="main.cpp" />
-    <None Include="QtStudy.ico" />
-    <ResourceCompile Include="QtStudy.rc" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="FindDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resources\FindDialog\FindDialog.qrc" />
+    <QtRcc Include="Resources\MainWindow\MainWindow.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\QtStudy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\QtStudy.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

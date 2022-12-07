@@ -35,7 +35,7 @@ MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
 	toolBar->addAction(openAction);
 	toolBar->addAction(colorAction);
 
-	this->resize(400,300);
+	this->resize(800,500);
 	this->setWindowIcon(QIcon(":/MainWindow/Window.ico"));
 }
 

@@ -13,4 +13,7 @@ public:
 
 private:
 	QAction *openAction;
+
+private slots:
+	void open();
 };

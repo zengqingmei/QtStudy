@@ -85,7 +85,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PaintedWidget.cpp" />
     <QtMoc Include="MainWindow.h" />
+    <ClCompile Include="EventLabel.cpp" />
     <ClCompile Include="FindDialog.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="main.cpp" />
@@ -98,6 +100,8 @@
     <QtRcc Include="Resources\MainWindow\MainWindow.qrc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EventLabel.h" />
+    <ClInclude Include="PaintedWidget.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="QtStudy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="Resources\QtStudy_zh_Hans.ts" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

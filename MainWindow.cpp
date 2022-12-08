@@ -53,7 +53,7 @@ void MainWindow::open() {
 }
 
 void MainWindow::choseColor() {
-	QColor color = QColorDialog::getColor(Qt::white, nullptr, tr("Select Color"), QColorDialog::ColorDialogOption::ShowAlphaChannel);
+	QColor color = QColorDialog::getColor(Qt::white, nullptr, tr("Select Color"), QColorDialog::ShowAlphaChannel);
 	QString msg = QString("R:%1,G:%2,B:%3").arg(QString::number(color.red()), QString::number(color.green()), QString::number(color.blue()));
 	QMessageBox::information(NULL, tr("Selected Color"), msg);
 }

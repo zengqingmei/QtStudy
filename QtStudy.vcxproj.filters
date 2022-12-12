@@ -79,7 +79,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <QtTranslation Include="Resources\QtStudy_zh_Hans.ts">
+    <QtTranslation Include="translations\QtStudy_zh_Hans.ts">
       <Filter>Translation Files</Filter>
     </QtTranslation>
   </ItemGroup>
